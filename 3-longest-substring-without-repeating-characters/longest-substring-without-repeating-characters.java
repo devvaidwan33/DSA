@@ -1,4 +1,5 @@
 class Solution {
+    //longest substring
     public int lengthOfLongestSubstring(String s) {
         // if there is with repeating characters use hashmap
         // if there is without repeating characters use hashset
