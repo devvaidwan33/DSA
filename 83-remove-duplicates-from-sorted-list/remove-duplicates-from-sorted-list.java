@@ -28,6 +28,7 @@ class Solution {
         }
 
      } 
+     // if we process all the node but still last node remain duplicate
      prev.next=temp;
      return head;  
     }
