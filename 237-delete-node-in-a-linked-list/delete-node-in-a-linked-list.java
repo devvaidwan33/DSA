@@ -8,6 +8,7 @@
  */
 class Solution {
     public void deleteNode(ListNode node) {
+        // just copy the next val in curr and break the connection
         node.val=node.next.val;
         node.next=node.next.next;
     }
