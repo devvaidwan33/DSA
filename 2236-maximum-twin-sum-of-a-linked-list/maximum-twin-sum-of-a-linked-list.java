@@ -19,6 +19,7 @@ class Solution {
         }
         return prev;
     }
+    // just find the middle ele by slow fast and breake the secondHalf by reverse the secondHalf and run two pointer over both LL
     public int pairSum(ListNode head) {
         ListNode slow=head, fast=head;
         while(fast.next.next!=null){
