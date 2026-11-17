@@ -18,6 +18,7 @@ class Solution {
             }
         }
       }
+      // above code handle every closing bracket cond but if there is no closing bracket then 
       return count+stack.size(); 
     }
 }
