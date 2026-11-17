@@ -6,6 +6,7 @@ class Solution {
             stack.push(ch);
         }
         else{
+            // work if there is only closing brackets and every time we pop them
             if(stack.isEmpty()){
                 return false;
             }
